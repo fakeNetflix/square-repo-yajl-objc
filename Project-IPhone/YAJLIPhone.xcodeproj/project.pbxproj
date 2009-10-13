@@ -1090,6 +1090,7 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
@@ -1111,6 +1112,7 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
 				DYLIB_COMPATIBILITY_VERSION = 0;
