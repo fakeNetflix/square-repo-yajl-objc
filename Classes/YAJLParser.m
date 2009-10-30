@@ -114,7 +114,7 @@ int yajl_boolean(void *ctx, int boolVal) {
 int yajl_number(void *ctx, const char *numberVal, unsigned int numberLen) {
 	double d = strtod(numberVal, NULL);
 	if ((d == HUGE_VAL || d == -HUGE_VAL) && errno == ERANGE) {
-		NSString *s = [[NSString alloc] initWithBytes:numberVal length:numberLen encoding:NSUTF8StringEncoding];
+		NSString *s = [[[NSString alloc] initWithBytes:numberVal length:numberLen encoding:NSUTF8StringEncoding] autorelease];
 		[(id)ctx _cancelWithErrorForStatus:-2 message:[NSString stringWithFormat:@"double overflow on '%@'", s]];
 		return 0;
 	}
