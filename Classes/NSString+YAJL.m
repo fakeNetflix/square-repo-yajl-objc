@@ -38,7 +38,7 @@ NSString *const YAJLParserException = @"YAJLParserException";
 - (id)yajl_JSON {
 	NSError *error = nil;
 	id JSON = [self yajl_JSON:&error];
-	if (error) [NSException raise:YAJLParserException format:[error localizedDescription]];
+	if (error) [NSException raise:YAJLParserException format:@"%@", [error localizedDescription]];
 	return JSON;
 }
 
