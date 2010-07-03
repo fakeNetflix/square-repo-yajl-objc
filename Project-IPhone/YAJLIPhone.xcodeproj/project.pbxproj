@@ -958,7 +958,6 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
@@ -972,7 +971,6 @@
 				GCC_PREFIX_HEADER = YAJLIPhone_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = YAJLIPhoneSimulator;
-				SDKROOT = iphonesimulator3.0;
 			};
 			name = Debug;
 		};
@@ -981,7 +979,6 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
 				DYLIB_COMPATIBILITY_VERSION = 0;
@@ -991,7 +988,6 @@
 				GCC_PREFIX_HEADER = YAJLIPhone_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = YAJLIPhoneSimulator;
-				SDKROOT = iphonesimulator3.0;
 			};
 			name = Release;
 		};
@@ -1023,7 +1019,6 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
@@ -1045,7 +1040,6 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
 				DYLIB_COMPATIBILITY_VERSION = 0;
@@ -1068,7 +1062,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Debug;
 		};
@@ -1081,7 +1075,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Release;
 		};
@@ -1090,7 +1084,6 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
@@ -1112,7 +1105,6 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CURRENT_PROJECT_VERSION = "${YAJL_VERSION}";
 				DSTROOT = /tmp/YAJLIPhone.dst;
 				DYLIB_COMPATIBILITY_VERSION = 0;
