@@ -925,7 +925,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
-				SDKROOT = iphonesimulator3.0;
+				SDKROOT = iphonesimulator4.0;
 			};
 			name = Debug;
 		};
@@ -955,7 +955,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
-				SDKROOT = iphonesimulator3.0;
+				SDKROOT = iphonesimulator4.0;
 				ZERO_LINK = NO;
 			};
 			name = Release;
