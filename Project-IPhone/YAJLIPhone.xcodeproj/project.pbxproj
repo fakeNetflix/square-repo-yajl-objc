@@ -1104,6 +1104,7 @@
 				GCC_PREFIX_HEADER = YAJLIPhone_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = YAJLIPhone;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -1121,6 +1122,7 @@
 				GCC_PREFIX_HEADER = YAJLIPhone_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = YAJLIPhone;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
